@@ -56,6 +56,4 @@ This project was developed by:
 - **Kishore Kumar**
 - **Dasari Charan**
 
-- Special thanks to KPIT for providing the platform and resources for this project.
-
 ---
