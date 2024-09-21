@@ -17,7 +17,7 @@ This project aims to design and develop a system that collects real-time data fr
   - Fuel Level Sensor
   - Hall Effect Sensor (LM393)
   - Brake System (Tactile Push Button Switch)
-- **Communication Protocol:** Data is transmitted using USB communication and processed with Python.
+- **Communication Protocol:** Data is transmitted using USB serial communication and processed with Python.
 
 ## Software Design
 The software includes a Python-based GUI for real-time data visualization and alert management. The GUI is built using the Tkinter library, and serial communication with the STM32 microcontroller is established using PySerial.
@@ -27,10 +27,6 @@ The software includes a Python-based GUI for real-time data visualization and al
   - Alerts and warnings based on critical thresholds (e.g., high engine temperature).
   - Data processing and visualization.
   
-- **Code Overview:**
-  - Python: `DASHBOARD.py` handles real-time data visualization.
-  - STM32 Code: Manages sensor data acquisition and communication.
-
 ## Hardware Design
 The hardware setup includes:
 - STM32 Nucleo microcontroller.
@@ -41,23 +37,25 @@ The hardware setup includes:
 
 
 4. **Connect the Hardware:**
-   Ensure all sensors are connected to the microcontroller as per the hardware design.
+   Ensure all sensors are connected to the microcontroller as per the hardware design SCHEMATIC.png.
+   
 
-## Project Plan
-The project was completed in multiple phases:
-1. Market research and defining the problem statement.
-2. Finalizing business and component requirements.
-3. Implementation and testing at the component level.
-4. Full system integration and testing.
-5. Documentation and presentation.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-- Developed by **Sai Preetham Sanda** (BU21EECE0100096) in collaboration with **KPIT Bengaluru**.
-- Special thanks to KPIT for providing the platform and resources for this project.
+-Here is the updated acknowledgments section:
 
 ---
 
-Feel free to customize this `README.md` according to your preferences or add more technical details if needed!
+## Acknowledgements
+This project was developed by:
+- **Sai Preetham Sanda**
+- **Boya Dileep**
+- **Kishore Kumar**
+- **Dasari Charan**
+
+- Special thanks to KPIT for providing the platform and resources for this project.
+
+---
