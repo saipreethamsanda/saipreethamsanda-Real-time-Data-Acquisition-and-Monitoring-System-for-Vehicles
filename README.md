@@ -1,6 +1,3 @@
-Here’s a sample `README.md` file for your GitHub project based on the **Real-Time Data Acquisition and Monitoring System for Automobiles** report.
-
----
 
 # Real-Time Data Acquisition and Monitoring System for Automobiles
 
@@ -31,7 +28,7 @@ The software includes a Python-based GUI for real-time data visualization and al
   - Data processing and visualization.
   
 - **Code Overview:**
-  - Python: `dashboard.py` handles real-time data visualization.
+  - Python: `DASHBOARD.py` handles real-time data visualization.
   - STM32 Code: Manages sensor data acquisition and communication.
 
 ## Hardware Design
@@ -42,24 +39,6 @@ The hardware setup includes:
 - Fuel level sensor.
 - Tactile push button switch for brake status detection.
 
-## How to Use
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/real-time-auto-monitoring.git
-   cd real-time-auto-monitoring
-   ```
-
-2. **Install Dependencies:**
-   Install Python and the necessary libraries:
-   ```bash
-   pip install pyserial tkinter
-   ```
-
-3. **Run the Dashboard:**
-   Connect the STM32 NUCLEO board and run the Python GUI.
-   ```bash
-   python dashboard.py
-   ```
 
 4. **Connect the Hardware:**
    Ensure all sensors are connected to the microcontroller as per the hardware design.
@@ -71,13 +50,6 @@ The project was completed in multiple phases:
 3. Implementation and testing at the component level.
 4. Full system integration and testing.
 5. Documentation and presentation.
-
-## Test Cases
-The system was tested against several parameters, including:
-- **Temperature Sensor:** Testing with input temperature data (e.g., 40°C).
-- **Fuel Level Detection:** Validating accurate readings from the fuel sensor.
-- **Speed and RPM Monitoring:** Checking the real-time speed and RPM from the hall-effect sensor.
-- **Brakes Status Reporting:** Ensuring proper brake system monitoring.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
