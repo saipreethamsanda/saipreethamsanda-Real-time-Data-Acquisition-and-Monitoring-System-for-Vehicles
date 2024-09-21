@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This project was developed by:
 - **Sai Preetham Sanda**
 - **Boya Dileep**
-- **Kishore Kumar**
+- **Seethi Kishore Kumar Reddy**
 - **Dasari Charan**
 
 ---
