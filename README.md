@@ -44,9 +44,6 @@ The hardware setup includes:
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
--Here is the updated acknowledgments section:
-
 ---
 
 ## Acknowledgements
