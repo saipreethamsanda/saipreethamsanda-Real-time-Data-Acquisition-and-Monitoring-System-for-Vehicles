@@ -1,4 +1,6 @@
 
+![Visitor Count](https://hits.sh/github.com/saipreethamsanda/Real-Time-Data-Acquisition-and-Monitoring-System-for-Automobiles.svg?style=flat-square)
+
 # Real-Time Data Acquisition and Monitoring System for Automobiles
 
 ## Project Overview
